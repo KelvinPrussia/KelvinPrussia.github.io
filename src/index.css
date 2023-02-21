@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: rgb(167, 192, 183);
+}
+.title{
+    color: #2edd4b;
+    text-shadow:-5px 3px black;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.header {
+    background-color: rgb(4, 77, 4);
+}
+.menuBar {
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
+.mainDiv {
+    color: white;
+}
+.menuBtn{
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #800040;
+    color: white;
+    border: 1px solid #800040;
+    margin: 0 1rem;
+}
+.btn{
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #0a422b;
+    color: white;
+    border: 1px solid #0a422b;
+    margin: 0 1rem;
+}
+.backdrop {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.modal {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    z-index: 10;
+    position: fixed;
+    top: 20vh;
+    left: calc(50% - 15rem);
+}
