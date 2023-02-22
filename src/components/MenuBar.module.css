@@ -1,0 +1,45 @@
+.header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #235839;
+    /* padding: 0 10%; */
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  .menuButtons ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    background-color: rgb(89, 146, 106);
+  }
+  
+  .menuButtons li {
+    margin-left: 3rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 8px;
+    background-color: #235839;
+    outline: 1px solid #000 ;
+  }
+  
+  .menuButtons a {
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .menuButtons a:hover,
+  .menuButtons a:active,
+  .menuButtons a.active {
+    color: rgb(57, 109, 72);
+  }
