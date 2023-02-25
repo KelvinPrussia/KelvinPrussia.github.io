@@ -1,0 +1,8 @@
+.flipBtn {
+    background-color: green;
+}
+
+.flipBtn:hover,
+.flipBtn:active{
+    background-color: blue;
+}
